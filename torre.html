@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Caballo | Ajedrez en el aula </title>
+<title>Torre | Ajedrez en el aula </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta name="author" content="J Ramón Dorado Repiso" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by/4.0/" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-16"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-12"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <header id="header"  style="background-image: url(Ajedrez_en_el_aula.png); background-repeat: repeat-x;"><div id="headerContent">Ajedrez en el aula</div></header>
@@ -45,11 +45,11 @@
       </li>
       <li class="current-page-parent"><a href="movimientos.html" class="current-page-parent daddy">Movimientos</a>
       <ul>
-         <li><a href="torre.html" class="no-ch">Torre</a></li>
+         <li id="active"><a href="torre.html" class="active no-ch">Torre</a></li>
          <li><a href="alfil.html" class="no-ch">Alfil</a></li>
          <li><a href="reina.html" class="no-ch">Reina</a></li>
          <li><a href="rey.html" class="no-ch">Rey</a></li>
-         <li id="active"><a href="caballo.html" class="active no-ch">Caballo</a></li>
+         <li><a href="caballo.html" class="no-ch">Caballo</a></li>
          <li><a href="pen.html" class="no-ch">Peón</a></li>
          <li><a href="tarea1.html" class="no-ch">Tarea</a></li>
       </ul>
@@ -157,56 +157,37 @@
 </nav>
 <div id='topPagination'>
 <nav class="pagination noprt">
-<a href="rey.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="pen.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="movimientos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="alfil.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 <div id="main-wrapper">
 <section id="main">
-<header id="nodeDecoration"><h1 id="nodeTitle">Caballo</h1></header>
-<article class="iDevice_wrapper activityIdevice em_iDevice em_iDevice_activity" id="id16">
+<header id="nodeDecoration"><h1 id="nodeTitle">Torre</h1></header>
+<article class="iDevice_wrapper activityIdevice em_iDevice em_iDevice_activity" id="id12">
 <div class="iDevice emphasis1" >
-<header class="iDevice_header"><h1 class="iDeviceTitle">El Caballo salta en forma de &quot;L&quot;</h1></header>
+<header class="iDevice_header"><h1 class="iDeviceTitle">La Torre mueve por filas y columnas</h1></header>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
-<div id="ta16_29_2" class="block iDevice_content">
+<div id="ta12_25_2" class="block iDevice_content">
 <table border="0">
 	<tbody>
 		<tr>
-			<td style="background-color: #aefdb9"> <img src="caballo.gif" height="352" width="355" /></td>
-			<td> </td>
 			<td>
-			<ul>
-				<li><span style="font-size: medium">El Caballo salta, no corre un camino de casillas como las otras piezas. Podemos encontrar las casillas a las que puede saltar contando: 1) dos casillas por la columna o por la fila y luego 2) una casilla hacia el costado, en forma perpendicular a la dirección anterior.</span>
-				</li>
-			</ul>
-			<div align="justify">
-			</div>
-			<span style="font-size: medium"> </span>
-			<ul>
-				<li><span style="font-size: medium">Por eso nos imaginamos que el Caballo mueve saltando en forma de una letra </span><span style="font-size: medium"><strong>L</strong></span></li>
-			</ul>
-			</td>
-		</tr>
-		<tr>
-			<td style="background-color: #aefdb9"> <img src="caballo2.gif" height="363" width="348" /></td>
-			<td> </td>
-			<td>
-			<p align="justify">
-			<span style="font-size: small">
-			<span style="font-size: medium">El <strong>Ce5</strong> puede mover en su próxima jugada a cualquiera de las <strong>8 casillas</strong> blancas marcadas: <strong>c4, c6, d7, f7, g6, g4, f3 o d3</strong>.
-			</span></span>
-			</p>
-			<p align="justify">
-			<span style="font-size: medium">
-			El <strong>Ce4</strong> puede mover en su próxima jugada a cualquiera de las <strong>8 casillas</strong> negras marcadas: <strong>c3, c5, d6, f6, g5, g3, f2 o d2</strong>.</span>
-			<span style="font-size: medium"></span>
-			</p>
 			<div align="justify">
 			<ul>
-				<li><span style="font-size: medium">En cada salto, el Caballo cambia de color de su casilla: si está en una casilla blanca, sólo puede moverse a casillas negras y si está en una casilla negra, sólo puede mover a casillas blancas.</span></li>
+				<li><span style="font-size: medium">La Torre puede mover a cualquier casilla de la columna o de la fila en las que está ubicada</span></li>
+				<li><span style="font-size: medium">La torre puede mover de a una o de varias casillas por vez, hacia adelante o hacia atrás, hacia la derecha o hacia la izquierda.</span></li>
+				<li><span style="font-size: medium">Por eso decimos que la Torre mueve en cruz (<strong>+</strong>)<br />
+				</span></li>
 			</ul>
+			<span style="font-size: medium">La </span><span style="font-size: medium"><strong>Td5 </strong><span style="font-size: medium">puede mover en su próxima jugada a <strong>14 casillas</strong> diferentes: 7 por la fila 5 y 7 por la columna d.</span></span>
 			</div>
+			<p>
+			&nbsp;
+			</p>
 			</td>
+			<td> </td>
+			<td style="background-color: #aefdb9"> <img src="torre.gif" height="355" width="351" /></td>
 		</tr>
 	</tbody>
 </table>
@@ -223,7 +204,7 @@
 </div>
 <div id='bottomPagination'>
 <nav class="pagination noprt">
-<a href="rey.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="pen.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="movimientos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="alfil.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 </div>
